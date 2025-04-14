@@ -1,6 +1,6 @@
 {
-  "name": "RageFM",
-  "version": "1.0.0",
+  "name": "Stickc Plus2",
+  "version": "V1",
   "builds": [
     {
       "chipFamily": "ESP32",
