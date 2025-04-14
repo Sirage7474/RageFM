@@ -1,7 +1,15 @@
 {
-  "device": "m5stickc_plus2",
-  "firmware": {
-    "name": "M5StickC Plus 2 Firmware",
-    "url": "https://raw.githubusercontent.com/Sirage7474/RageFM/main/m5stickc_plus2.bin"
-  }
+  "name": "RageFM",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "m5stickc_plus2.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
 }
