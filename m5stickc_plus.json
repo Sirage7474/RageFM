@@ -1,0 +1,15 @@
+{
+  "name": "Stickc Plus 1.1",
+  "version": "V1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "m5stickc_plus.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
